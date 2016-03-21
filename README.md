@@ -1,3 +1,3 @@
 # mvc-servlet-faculdade
 
-Exercico de mvc com servlet para
+Exercico de mvc com servlet para faculdade
