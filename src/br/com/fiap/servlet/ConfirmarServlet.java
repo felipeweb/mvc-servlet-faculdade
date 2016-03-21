@@ -1,6 +1,5 @@
 package br.com.fiap.servlet;
 
-import br.com.fiap.modelo.Aluno;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

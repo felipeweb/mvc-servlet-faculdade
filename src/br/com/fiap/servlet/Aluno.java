@@ -1,4 +1,4 @@
-package br.com.fiap.modelo;
+package br.com.fiap.servlet;
 
 import java.util.ArrayList;
 import java.util.List;

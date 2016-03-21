@@ -1,5 +1,6 @@
-package br.com.fiap.modelo;
+package br.com.fiap.servlet;
 
+import br.com.fiap.servlet.Aluno;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;

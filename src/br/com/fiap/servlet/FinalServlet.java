@@ -1,7 +1,5 @@
 package br.com.fiap.servlet;
 
-import br.com.fiap.modelo.Aluno;
-import br.com.fiap.modelo.Sala;
 import java.io.IOException;
 import java.util.Enumeration;
 import java.util.List;
@@ -31,7 +29,6 @@ public class FinalServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		String disciplina = request.getParameter("disciplina");
-		Enumeration<String> attributeNames = session.getAttributeNames();
 		List<Aluno> alunos =  (List<Aluno>) session.getAttribute("alunos");
 		request.setAttribute("mediaSala", Sala.calculaMediaSala(alunos));
 		request.setAttribute("pior", Sala.piorDaSala(alunos));
