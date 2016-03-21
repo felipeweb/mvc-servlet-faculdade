@@ -1,8 +1,8 @@
 package br.com.fiap.servlet;
 
 import java.io.IOException;
-import java.util.Enumeration;
 import java.util.List;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 public class FinalServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
- 
+
     public FinalServlet() {
         super();
     }
